@@ -1,0 +1,5 @@
+physiognomy,physiognomy_name,physiognomy_raw,n_before,n_after,n_removed,proportion_removed
+DOF,Dense Ombrophilous Forest (DOF),FOD,146351,139591,6760,0.04619032326393397
+MOF,Mixed Ombrophilous Forest (MOF),FOM,33896,32101,1795,0.052956101014869014
+SSdF,Seasonal Semideciduous Forest (SSdF),FES,57948,54829,3119,0.05382411817491544
+SDF,Seasonal Deciduous Forest (SDF),FED,13957,12440,1517,0.10869097943684172

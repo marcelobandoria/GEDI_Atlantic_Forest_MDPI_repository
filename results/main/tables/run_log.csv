@@ -1,0 +1,2 @@
+input_csv,input_polygon_file,polygon_layer,edge_filter_method,buffer_m,n_total_prebuffer,n_total_postbuffer,n_bootstrap_replicates,fast_test,manuscript_exact_mode
+D:\DataScience\GEDI_Atlantic_Forest_MDPI_repository/data/gedi_footprints_filtered.csv,D:\DataScience\GEDI_Atlantic_Forest_MDPI_repository/spatial/old_growth_candidate_polygons.gpkg,atual__samples,geometric erosion,60,252152,238961,2000,FALSE,TRUE

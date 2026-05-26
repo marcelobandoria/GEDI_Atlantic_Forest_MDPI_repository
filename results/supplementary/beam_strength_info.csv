@@ -1,0 +1,17 @@
+beam,med_sens,n,product,method
+11,0.9868997340000001,34569,L2B,median_sensitivity_top_half
+8,0.985271871,34319,L2B,median_sensitivity_top_half
+5,0.9836362599999999,33729,L2B,median_sensitivity_top_half
+6,0.9835838679999999,33415,L2B,median_sensitivity_top_half
+3,0.9701597089999999,29763,L2B,median_sensitivity_top_half
+2,0.968243122,28950,L2B,median_sensitivity_top_half
+1,0.965394258,28853,L2B,median_sensitivity_top_half
+0,0.964636207,28437,L2B,median_sensitivity_top_half
+11,0.989167213,34569,L4A,median_sensitivity_top_half
+8,0.988205552,34319,L4A,median_sensitivity_top_half
+5,0.986660838,33729,L4A,median_sensitivity_top_half
+6,0.986322403,33415,L4A,median_sensitivity_top_half
+3,0.9772347209999999,29763,L4A,median_sensitivity_top_half
+2,0.9759592115,28950,L4A,median_sensitivity_top_half
+1,0.97409153,28853,L4A,median_sensitivity_top_half
+0,0.973701,28437,L4A,median_sensitivity_top_half

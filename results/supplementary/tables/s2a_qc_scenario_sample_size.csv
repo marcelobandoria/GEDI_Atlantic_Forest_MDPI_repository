@@ -1,0 +1,10 @@
+scenario,label,status,status2,n_shots_post_qc,n_polygons_post_qc,n_shots_post_buffer,n_polygons_post_buffer,buffer_method,buffer_removed_pct,reason
+S0_no_qc,No QC diagnostic,RUN,RUN,252035,382,238961,347,geometric_erosion,5.187374769377269,
+S1_baseline,Baseline QC: L2B quality=1/degrade=0 and L4A quality=1/degrade=0,RUN,RUN,233222,369,221205,342,geometric_erosion,5.15260138408898,
+S_agbd_low_uncert,Baseline + low AGBD uncertainty,RUN,RUN,188910,364,179240,340,geometric_erosion,5.118839659096924,
+S_night_only,Baseline + night-only,RUN,RUN,138535,341,131280,315,geometric_erosion,5.236943732630743,
+S_sens080,Baseline + sensitivity_2b >= 0.8 and sensitivity_4a >= 0.8,RUN,REDUNDANT,233222,369,221205,342,geometric_erosion,5.15260138408898,
+S_sens090,Baseline + sensitivity_2b >= 0.9 and sensitivity_4a >= 0.9,RUN,REDUNDANT,233222,369,221205,342,geometric_erosion,5.15260138408898,
+S_sens095,Baseline + sensitivity_2b >= 0.95 and sensitivity_4a >= 0.95,RUN,RUN,219869,368,208533,342,geometric_erosion,5.1557973156743335,
+S_sens099,Baseline + sensitivity_2b >= 0.99 and sensitivity_4a >= 0.99,RUN,RUN,16782,264,15929,247,geometric_erosion,5.082826838279108,
+S_strong_beams,Baseline + strong beams only,RUN,RUN,132071,345,125370,320,geometric_erosion,5.073786069614071,

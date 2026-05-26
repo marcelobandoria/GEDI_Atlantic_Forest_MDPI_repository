@@ -1,0 +1,25 @@
+package,purpose,required
+readr,Read CSV input tables,yes
+dplyr,Data manipulation and grouping,yes
+tidyr,Long/wide table transformations,yes
+stringr,String handling and class parsing,yes
+forcats,Factor handling,yes
+janitor,Clean column names,yes
+purrr,Functional iteration across variables and scenarios,yes
+tibble,Tidy data frames,yes
+ggplot2,Figures and plots,yes
+FSA,Dunn post hoc tests,yes
+openxlsx,Excel workbook export,yes
+sf,Spatial vector data and geometric operations,yes
+units,Spatial units handling,yes
+lwgeom,Optional robust geodetic geometry/area operations,no
+lme4,Linear mixed models,yes
+lmerTest,ANOVA and p-values for LMMs,yes
+spdep,Moran's I and spatial weights,yes
+gstat,Optional semivariogram diagnostics,no
+sp,Spatial object conversion for optional variogram workflow,no
+scales,Plot axis and label formatting,yes
+cowplot,Combined plot panels,yes
+patchwork,Plot composition,yes
+sysfonts,Font handling for figures,no
+showtext,Font rendering for figures,no

@@ -1,0 +1,2 @@
+processing_step,method,n_total,n_kept,n_removed,proportion_removed
+buffer_60m,erosao_geometrica,252152,238961,13191,0.05231368380976554

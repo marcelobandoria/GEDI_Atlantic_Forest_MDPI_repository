@@ -1,0 +1,10 @@
+path,required,description,notes
+data/gedi_footprints_filtered.csv,yes,Final GEDI analytical footprint table used by the manuscript-reference workflow,Must contain GEDI structural metrics coordinates physiognomy ID and QC fields
+spatial/old_growth_candidate_polygons.gpkg,yes,Old-growth candidate forest polygon layer,Expected layer atual__samples with fields id and fitofisionomia
+scripts/*.R,yes,R scripts that reproduce the repository workflow,Run through scripts/00_run_repository_workflow.R
+manuscript_assets/figures/figure_01_atlantic_forest_extent_old_growth_candidates.png,yes,Static manuscript Figure 1,Cartographic/static asset
+manuscript_assets/figures/figure_02_study_area_phytophysiognomies.png,yes,Static manuscript Figure 2,Cartographic/static asset
+manuscript_assets/figures/figure_03_sampling_distribution_old_growth_forests.png,yes,Static manuscript Figure 3,Cartographic/static asset
+manuscript_assets/figures/figure_04_visual_interpretation_key.png,yes,Static manuscript Figure 4,Visual QA/QC asset
+manuscript_assets/figures/figure_05_gedi_sampling_within_physiognomies.png,yes,Static manuscript Figure 5,Cartographic/static asset
+manuscript_assets/figures/figure_06_research_flowchart.png,yes,Static manuscript Figure 6,Diagram/static asset

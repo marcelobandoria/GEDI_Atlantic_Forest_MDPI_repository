@@ -1,0 +1,6 @@
+metric,metric_label,metric_raw,test,global_p_value,epsilon_squared
+H,"Canopy height (H, m)",altura_dossel,Kruskal_shots,0,0.05249570184861553
+AGBD,"Aboveground biomass density (AGBD, Mg ha^-1)",agbd,Kruskal_shots,0,0.07558117478105299
+PAI,"Plant area index (PAI, m^2 m^-2)",pai,Kruskal_shots,0,0.05202353219029691
+COVER,"Canopy cover (COVER, %)",cover,Kruskal_shots,0,0.051833099158479584
+FHD,Foliage height diversity (FHD),fhd_normal,Kruskal_shots,0,0.05221503204338798

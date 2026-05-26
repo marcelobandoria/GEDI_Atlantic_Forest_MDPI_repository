@@ -1,0 +1,6 @@
+metric,metric_label,metric_raw,n_polygons,k,moran_i,expected_i,variance_i,p_value,neighbourhood_method
+H,"Canopy height (H, m)",altura_dossel,276,8,0.1609359391268171,-0.0036363636363636364,7.596977127640595e-4,1.180085876597672e-9,kNN (unique coords; jitter if needed)
+AGBD,"Aboveground biomass density (AGBD, Mg ha^-1)",agbd,276,8,0.14579839049468088,-0.0036363636363636364,6.941344513927635e-4,7.060448426042391e-9,kNN (unique coords; jitter if needed)
+PAI,"Plant area index (PAI, m^2 m^-2)",pai,276,8,0.06736049560410286,-0.0036363636363636364,7.613238436113568e-4,0.005039797608713655,kNN (unique coords; jitter if needed)
+COVER,"Canopy cover (COVER, %)",cover,276,8,0.02901369894879646,-0.0036363636363636364,7.498853835724821e-4,0.11657126317317254,kNN (unique coords; jitter if needed)
+FHD,Foliage height diversity (FHD),fhd_normal,276,8,0.0726045706043226,-0.0036363636363636364,7.053335891421731e-4,0.002047686622452305,kNN (unique coords; jitter if needed)

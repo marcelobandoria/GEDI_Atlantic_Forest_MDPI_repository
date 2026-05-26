@@ -1,0 +1,7 @@
+figure_file,figure_type,description,note
+figure_01_canopy_height_boxplot.png,Exploratory boxplot,Canopy height distribution by Atlantic Forest physiognomy.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.
+figure_02_agbd_boxplot.png,Exploratory boxplot,Aboveground biomass density distribution by Atlantic Forest physiognomy.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.
+figure_03_pai_boxplot.png,Exploratory boxplot,Plant area index distribution by Atlantic Forest physiognomy.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.
+figure_04_canopy_cover_boxplot.png,Exploratory boxplot,Canopy cover distribution by Atlantic Forest physiognomy.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.
+figure_05_fhd_boxplot.png,Exploratory boxplot,Foliage height diversity distribution by Atlantic Forest physiognomy.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.
+figure_07_boxplots_by_physiognomy.png,Exploratory boxplot,Combined multi-panel boxplot figure corresponding to manuscript Figure 7.,Figures use the balanced post-edge-filter dataset reproduced from the manuscript-reference workflow.

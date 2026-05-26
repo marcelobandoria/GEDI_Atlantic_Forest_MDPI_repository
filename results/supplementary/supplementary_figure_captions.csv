@@ -1,0 +1,3 @@
+figure_id,file,caption
+Fig. S1,figure_s1_polygon_spearman_heatmap.png,Spearman collinearity among GEDI-derived structural metrics at the polygon level under the baseline QC scenario.
+Fig. S2,figure_s2_qc_delta_epsilon2.png,Change in polygon-level Kruskal-Wallis epsilon-squared effect size relative to the baseline scenario across QC and acquisition subsets.

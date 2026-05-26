@@ -1,0 +1,10 @@
+scenario,label,signature,scenario_rep,status2
+S_strong_beams,Baseline + strong beams only,132071|345|125370|320,S_strong_beams,RUN
+S_night_only,Baseline + night-only,138535|341|131280|315,S_night_only,RUN
+S_sens099,Baseline + sensitivity_2b >= 0.99 and sensitivity_4a >= 0.99,16782|264|15929|247,S_sens099,RUN
+S_agbd_low_uncert,Baseline + low AGBD uncertainty,188910|364|179240|340,S_agbd_low_uncert,RUN
+S_sens095,Baseline + sensitivity_2b >= 0.95 and sensitivity_4a >= 0.95,219869|368|208533|342,S_sens095,RUN
+S1_baseline,Baseline QC: L2B quality=1/degrade=0 and L4A quality=1/degrade=0,233222|369|221205|342,S1_baseline,RUN
+S_sens080,Baseline + sensitivity_2b >= 0.8 and sensitivity_4a >= 0.8,233222|369|221205|342,S1_baseline,REDUNDANT
+S_sens090,Baseline + sensitivity_2b >= 0.9 and sensitivity_4a >= 0.9,233222|369|221205|342,S1_baseline,REDUNDANT
+S0_no_qc,No QC diagnostic,252035|382|238961|347,S0_no_qc,RUN

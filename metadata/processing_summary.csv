@@ -1,0 +1,15 @@
+processing_step,description,script,expected_reference_value_or_output
+Input GEDI footprints,Read final analytical GEDI footprint table,01_prepare_manuscript_dataset.R,252152 footprints before edge filtering
+Structural metrics,Derive canopy height and standardize GEDI metrics,01_prepare_manuscript_dataset.R,H AGBD PAI COVER FHD
+Edge filtering,Apply 60 m internal buffer to reduce boundary effects,01_prepare_manuscript_dataset.R,13191 footprints removed; 238961 retained
+Shot balancing,Balance footprint counts by physiognomy for manuscript-reference workflow,01_prepare_manuscript_dataset.R,12440 shots per physiognomy
+Polygon summaries,Compute polygon-level medians,02_run_main_statistics.R,Primary unit of inference
+Nonparametric testing,Kruskal-Wallis and epsilon-squared,02_run_main_statistics.R,Main Table 3
+Pairwise testing,Dunn post hoc tests with adjusted p-values and r effect size,02_run_main_statistics.R,Main Table 4
+Mixed models,LMM with polygon random intercept,02_run_main_statistics.R,Main Table 5
+Spatial diagnostics,Moran's I on residuals,02_run_main_statistics.R,Main Table 6
+Main figures,Generate boxplots by physiognomy,03_make_main_figures.R,Main Figure 7
+QC sensitivity,Run alternative QC/acquisition scenarios,04_run_qc_sensitivity_analysis.R,Supplementary Tables S2-S4 and Figure S2
+Supplementary tables,Create compact supplementary table set and Excel workbook,05_make_supplementary_tables.R,Tables S1a-S4 and Supplementary Data 1
+Supplementary figures,Generate collinearity heatmap and delta epsilon-squared figure,06_make_supplementary_figures.R,Figures S1-S2
+Coverage check,Check presence of all submitted data-dependent outputs,07_check_submission_coverage.R,results/checks outputs

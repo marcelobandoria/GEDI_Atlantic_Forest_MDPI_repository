@@ -1,0 +1,5 @@
+diagnostic_item,observed_value,expected_value,difference_from_expected,status
+n_prebuffer,252152,252152,0,OK
+n_postbuffer,238961,238961,0,OK
+n_removed_buffer,13191,13191,0,OK
+balanced_min_group,12440,12440,0,OK

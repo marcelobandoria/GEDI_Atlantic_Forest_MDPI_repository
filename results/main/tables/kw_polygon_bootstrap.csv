@@ -1,0 +1,6 @@
+metric,metric_label,metric_raw,median_global_p,median_epsilon_squared
+AGBD,"Aboveground biomass density (AGBD, Mg ha^-1)",agbd,2.3118277837731162e-7,0.13697526474807706
+H,"Canopy height (H, m)",altura_dossel,2.2623178576665026e-7,0.1371741344336479
+COVER,"Canopy cover (COVER, %)",cover,8.833523721522301e-6,0.10338845190422033
+FHD,Foliage height diversity (FHD),fhd_normal,8.553590384488414e-7,0.12494282570448341
+PAI,"Plant area index (PAI, m^2 m^-2)",pai,1.3398419471498998e-5,0.09952994655232653

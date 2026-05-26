@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and repository release."
+title: "GEDI Atlantic Forest Structural Metrics Repository"
+version: "1.0.0"
+date-released: "2026-05-26"
+authors:
+  - family-names: "Bandoria"
+    given-names: "Marcelo C. S."
+  - family-names: "Seixas"
+    given-names: "Hugo T."
+  - family-names: "Rosa"
+    given-names: "Marcos R."
+  - family-names: "Molin"
+    given-names: "Paulo G."
+  - family-names: "Queiroz"
+    given-names: "Alfredo P."
+abstract: "Repository containing analytical data, spatial sampling files, R scripts, derived tables, figures, metadata, and documentation for a regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics."
+keywords:
+  - GEDI
+  - LiDAR
+  - Atlantic Forest
+  - forest structure
+  - remote sensing
+  - aboveground biomass density
+  - canopy structure
+license: "CC-BY-4.0"
+repository-code: "https://example.org/replace-with-public-repository-url"
+preferred-citation:
+  type: article
+  title: "Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics"
+  authors:
+    - family-names: "Bandoria"
+      given-names: "Marcelo C. S."
+    - family-names: "Seixas"
+      given-names: "Hugo T."
+    - family-names: "Rosa"
+      given-names: "Marcos R."
+    - family-names: "Molin"
+      given-names: "Paulo G."
+    - family-names: "Queiroz"
+      given-names: "Alfredo P."
+  journal: "Forests"
+  year: 2026

@@ -1,0 +1,23 @@
+output_path,item_reproduced,generated_by,description
+results/main/manuscript_results.xlsx,Main manuscript tables,02_run_main_statistics.R,Workbook with main statistical outputs
+results/main/tables/group_summary.csv,Table 1,01_prepare_manuscript_dataset.R;02_run_main_statistics.R,Spatial sampling summary and edge-filter impact
+results/main/tables/descriptive_statistics.csv,Table 2,02_run_main_statistics.R,Descriptive statistics by physiognomy and metric
+results/main/tables/kw_shot_exploratory.csv,Table 3 pooled component,02_run_main_statistics.R,Pooled-footprint Kruskal-Wallis results
+results/main/tables/kw_polygon_bootstrap.csv,Table 3 polygon component,02_run_main_statistics.R,Polygon-level bootstrap Kruskal-Wallis results
+results/main/tables/dunn_polygon_bootstrap.csv,Table 4,02_run_main_statistics.R,Post hoc Dunn pairwise comparisons
+results/main/tables/lmm_anova.csv,Table 5,02_run_main_statistics.R,LMM ANOVA robustness analysis
+results/main/tables/moran_i.csv,Table 6,02_run_main_statistics.R,Residual Moran's I diagnostics
+results/figures/figure_07_boxplots_by_physiognomy.png,Figure 7,03_make_main_figures.R,Combined exploratory boxplot panel
+results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx,Supplementary Data 1,05_make_supplementary_tables.R,Complete supplementary scenario-wise outputs
+results/supplementary/supplementary_tables.xlsx,Supplementary Tables S1a-S4,05_make_supplementary_tables.R,Workbook with compact supplementary tables
+results/supplementary/tables/s1a_polygon_collinearity_baseline.csv,Table S1a,05_make_supplementary_tables.R,Polygon-level Spearman collinearity under baseline QC
+results/supplementary/tables/s1b_collinearity_stability.csv,Table S1b,05_make_supplementary_tables.R,Collinearity stability across scenarios
+results/supplementary/tables/s2a_qc_scenario_sample_size.csv,Table S2a,05_make_supplementary_tables.R,QC/acquisition scenario sample-size impact
+results/supplementary/tables/s2b_scenario_definitions_redundancy.csv,Table S2b,05_make_supplementary_tables.R,Scenario definitions and redundancy handling
+results/supplementary/tables/s3a_kw_by_scenario.csv,Table S3a,05_make_supplementary_tables.R,Kruskal-Wallis results by scenario
+results/supplementary/tables/s3b_delta_eps2_summary.csv,Table S3b,05_make_supplementary_tables.R,Delta epsilon-squared summary across scenarios
+results/supplementary/tables/s4_pairwise_robustness.csv,Table S4,05_make_supplementary_tables.R,Pairwise robustness of Dunn effect sizes
+results/supplementary/figures/figure_s1_polygon_spearman_heatmap.png,Figure S1,06_make_supplementary_figures.R,Spearman correlation heatmap
+results/supplementary/figures/figure_s2_qc_delta_epsilon2.png,Figure S2,06_make_supplementary_figures.R,QC/acquisition sensitivity of epsilon-squared effect sizes
+results/checks/submission_output_coverage.csv,Coverage check,07_check_submission_coverage.R,Machine-readable check of submitted item coverage
+results/checks/submission_output_coverage_summary.csv,Coverage summary,07_check_submission_coverage.R,Summary of generated/static/missing outputs

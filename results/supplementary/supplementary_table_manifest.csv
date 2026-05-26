@@ -1,0 +1,8 @@
+table_id,file,n_rows,n_columns,cited_in_submission
+S1a_polygon_collinearity_baseline,s1a_polygon_collinearity_baseline.csv,10,5,Table S1a
+S1b_collinearity_stability,s1b_collinearity_stability.csv,10,7,Table S1b
+S2a_qc_scenario_sample_size,s2a_qc_scenario_sample_size.csv,9,11,Table S2a
+S2b_scenario_definitions_redundancy,s2b_scenario_definitions_redundancy.csv,9,6,Table S2b
+S3a_kw_by_scenario,s3a_kw_by_scenario.csv,45,7,Table S3a
+S3b_delta_eps2_summary,s3b_delta_eps2_summary.csv,9,5,Table S3b
+S4_pairwise_robustness,s4_pairwise_robustness.csv,270,7,Table S4

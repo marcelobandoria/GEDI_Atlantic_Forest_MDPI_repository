@@ -1,0 +1,10 @@
+scenario,label,definition,signature,scenario_rep,status2
+S0_no_qc,No QC diagnostic,No per-shot QC screening; all footprints assigned to polygons by spatial join were retained before the 60 m internal buffer.,252035|382|238961|347,S0_no_qc,RUN
+S1_baseline,Baseline QC: L2B quality=1/degrade=0 and L4A quality=1/degrade=0,Baseline QC retaining L2B and L4A observations with quality_flag = 1 and degrade_flag = 0.,233222|369|221205|342,S1_baseline,RUN
+S_agbd_low_uncert,Baseline + low AGBD uncertainty,"Baseline QC plus retention of the lowest-uncertainty AGBD observations, retaining the best 90% when uncertainty fields are available.",188910|364|179240|340,S_agbd_low_uncert,RUN
+S_night_only,Baseline + night-only,"Baseline QC plus nighttime acquisitions only, using solar_elevation <= 0 for both L2B and L4A.",138535|341|131280|315,S_night_only,RUN
+S_sens080,Baseline + sensitivity_2b >= 0.8 and sensitivity_4a >= 0.8,Baseline QC plus sensitivity_2b >= 0.80 and sensitivity_4a >= 0.80.,233222|369|221205|342,S1_baseline,REDUNDANT
+S_sens090,Baseline + sensitivity_2b >= 0.9 and sensitivity_4a >= 0.9,Baseline QC plus sensitivity_2b >= 0.90 and sensitivity_4a >= 0.90.,233222|369|221205|342,S1_baseline,REDUNDANT
+S_sens095,Baseline + sensitivity_2b >= 0.95 and sensitivity_4a >= 0.95,Baseline QC plus sensitivity_2b >= 0.95 and sensitivity_4a >= 0.95.,219869|368|208533|342,S_sens095,RUN
+S_sens099,Baseline + sensitivity_2b >= 0.99 and sensitivity_4a >= 0.99,Baseline QC plus sensitivity_2b >= 0.99 and sensitivity_4a >= 0.99.,16782|264|15929|247,S_sens099,RUN
+S_strong_beams,Baseline + strong beams only,Baseline QC plus restriction to strong/high-energy beams using data-driven per-beam sensitivity statistics.,132071|345|125370|320,S_strong_beams,RUN

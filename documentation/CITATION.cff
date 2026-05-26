@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Dataset and scripts for Regional Comparison of Atlantic Forest Phytophysiognomies Using GEDI-Derived Structural Metrics"
+message: "If you use this dataset or scripts, please cite the associated manuscript and this repository."
+type: dataset
+authors:
+  - family-names: Bandoria
+    given-names: Marcelo Cardoso da Silva
+  - family-names: Seixas
+    given-names: Hugo Tameirão
+  - family-names: Rosa
+    given-names: Marcos Reis
+  - family-names: Molin
+    given-names: Paulo Guilherme
+  - family-names: Queiroz
+    given-names: Alfredo Pereira de
+year: 2026
+license: CC-BY-4.0
+repository-code: "https://zenodo.org/"
+keywords:
+  - GEDI
+  - LiDAR
+  - Atlantic Forest
+  - forest structure
+  - phytophysiognomy
+  - aboveground biomass density
+  - canopy height

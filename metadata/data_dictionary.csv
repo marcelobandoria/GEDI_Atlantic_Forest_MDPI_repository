@@ -1,0 +1,25 @@
+field_name,description,unit_or_type,source,used_in
+id_amostra,Polygon or sample identifier used in the manuscript-reference workflow,character,Sampling polygons / analytical CSV,Grouping and polygon-level summaries
+fitofisionomia,Original forest physiognomy class,character,IBGE-based polygon attribution,Physiognomy grouping
+fito_grupo,Standardized internal physiognomy code: FOD FOM FES FED,categorical,Derived from fitofisionomia,All group comparisons
+physiognomy_code,English physiognomy code: DOF MOF SSdF SDF,categorical,Derived,Repository outputs
+latitude_bin0,GEDI footprint latitude,decimal degrees,GEDI L2B/L4A,Spatial filtering and diagnostics
+longitude_bin0,GEDI footprint longitude,decimal degrees,GEDI L2B/L4A,Spatial filtering and diagnostics
+elev_highestreturn,Elevation of the highest waveform return,m,GEDI,Canopy-height calculation
+elev_lowestmode_2b,Ground-mode elevation from GEDI L2B,m,GEDI L2B,Canopy-height calculation
+elev_lowestmode_4a,Ground-mode elevation from GEDI L4A,m,GEDI L4A,Fallback for canopy-height calculation
+altura_dossel,Canopy height derived as elev_highestreturn minus ground mode,m,Derived,Structural metric H
+agbd,Aboveground biomass density,Mg ha^-1,GEDI L4A,Structural metric AGBD
+pai,Plant area index,m^2 m^-2,GEDI L2B,Structural metric PAI
+cover,Canopy cover,%,GEDI L2B,Structural metric COVER
+fhd_normal,Foliage height diversity,dimensionless,GEDI L2B,Structural metric FHD
+l2b_quality_flag,GEDI L2B quality flag,integer,GEDI L2B,QC sensitivity workflow
+degrade_flag_2b,GEDI L2B degradation flag,integer,GEDI L2B,QC sensitivity workflow
+l4_quality_flag,GEDI L4A quality flag,integer,GEDI L4A,QC sensitivity workflow
+degrade_flag_4a,GEDI L4A degradation flag,integer,GEDI L4A,QC sensitivity workflow
+sensitivity_2b,GEDI L2B waveform sensitivity,numeric,GEDI L2B,QC sensitivity workflow
+sensitivity_4a,GEDI L4A waveform sensitivity,numeric,GEDI L4A,QC sensitivity workflow
+beam_2b,GEDI L2B beam identifier,character,GEDI L2B,Strong-beam sensitivity workflow
+beam_4a,GEDI L4A beam identifier,character,GEDI L4A,Strong-beam sensitivity workflow
+solar_elevation_2b,Solar elevation at L2B acquisition,degrees,GEDI L2B,Night-only sensitivity workflow
+solar_elevation_4a,Solar elevation at L4A acquisition,degrees,GEDI L4A,Night-only sensitivity workflow

@@ -1,0 +1,5 @@
+physiognomy,physiognomy_name,physiognomy_raw,n_polygons_after_buffer_and_shot_balancing,n_shots_after_buffer_and_shot_balancing,n_polygons,area_km2,mean_area_km2,median_area_km2
+DOF,Dense Ombrophilous Forest (DOF),FOD,126,12440,152,2353.4383794297655,2353.4383794297655,2353.4383794297655
+MOF,Mixed Ombrophilous Forest (MOF),FOM,59,12440,61,439.90670549607586,439.90670549607586,439.90670549607586
+SSdF,Seasonal Semideciduous Forest (SSdF),FES,88,12440,122,752.2237651743046,752.2237651743046,752.2237651743046
+SDF,Seasonal Deciduous Forest (SDF),FED,57,12440,62,151.03035858791827,151.03035858791827,151.03035858791827
