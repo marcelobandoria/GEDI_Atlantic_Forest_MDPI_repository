@@ -1,41 +1,63 @@
 # Repository workflow
 
-This document describes the executable workflow used to reproduce the data-dependent outputs of the manuscript **Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20403257.svg)](https://doi.org/10.5281/zenodo.20403257)
 
-## Workflow logic
+This repository workflow reproduces the data-dependent outputs cited in the submitted manuscript and Supplementary Information for the study:
 
-The workflow is organized into seven R scripts plus one runner script. The main manuscript workflow reproduces the analytical path used for the submitted results. The supplementary workflow reproduces the QC/acquisition sensitivity analyses and supplementary outputs.
+**Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics**
 
-## Scripts
+## Archived version
 
-| Script | Purpose |
-|---|---|
-| `00_run_repository_workflow.R` | Runs the complete workflow in the correct order. |
-| `01_prepare_manuscript_dataset.R` | Reads the GEDI analytical table, derives structural metrics, applies the 60 m edge filter, balances shots by physiognomy, and exports the prepared dataset used by the manuscript analysis. |
-| `02_run_main_statistics.R` | Produces the main statistical outputs: descriptive statistics, pooled footprint Kruskal-Wallis, polygon-level bootstrap Kruskal-Wallis, Dunn tests, LMM ANOVA, Moran's I, and the main workbook. |
-| `03_make_main_figures.R` | Produces the manuscript exploratory boxplots and the combined Figure 7 panel. |
-| `04_run_qc_sensitivity_analysis.R` | Produces the supplementary QC/acquisition sensitivity outputs, including scenario logs, correlations, Kruskal-Wallis results by scenario, and effect-size deltas. |
-| `05_make_supplementary_tables.R` | Produces Supplementary Tables S1a-S4 and the Supplementary Data Excel workbook. |
-| `06_make_supplementary_figures.R` | Produces Supplementary Figures S1 and S2. |
-| `07_check_submission_coverage.R` | Checks whether all submitted data-dependent outputs are present after running the workflow. |
+- **GitHub release:** v1.0.2
+- **Zenodo DOI:** https://doi.org/10.5281/zenodo.20403257
+- **GitHub repository:** https://github.com/marcelobandoria/GEDI_Atlantic_Forest_MDPI_repository
 
-## Required inputs
+## Required input files
+
+Place the input files in the repository root using this structure:
 
 ```text
 data/gedi_footprints_filtered.csv
 spatial/old_growth_candidate_polygons.gpkg
+scripts/*.R
 ```
 
-The GeoPackage must contain the layer `atual__samples`.
+The polygon GeoPackage is expected to contain the layer `atual__samples`.
+
+## Scripts
+
+```text
+00_run_repository_workflow.R
+01_prepare_manuscript_dataset.R
+02_run_main_statistics.R
+03_make_main_figures.R
+04_run_qc_sensitivity_analysis.R
+05_make_supplementary_tables.R
+06_make_supplementary_figures.R
+07_check_submission_coverage.R
+```
+
+## Script roles
+
+| Script | Role |
+|---|---|
+| `00_run_repository_workflow.R` | Runs the complete workflow in order. |
+| `01_prepare_manuscript_dataset.R` | Prepares the analytical dataset used for manuscript reproducibility. |
+| `02_run_main_statistics.R` | Generates the main statistical tables. |
+| `03_make_main_figures.R` | Generates the main boxplot figures, including Figure 7. |
+| `04_run_qc_sensitivity_analysis.R` | Runs supplementary QC/acquisition sensitivity analyses. |
+| `05_make_supplementary_tables.R` | Generates Supplementary Tables S1a–S4 and the Supplementary Data workbook. |
+| `06_make_supplementary_figures.R` | Generates Supplementary Figures S1 and S2. |
+| `07_check_submission_coverage.R` | Checks whether all submitted data-dependent outputs are present. |
 
 ## Quick test
 
 ```r
-Sys.setenv(GEDI_FAST_TEST = "true")
+Sys.setenv("GEDI_FAST_TEST", "true")
 source("scripts/00_run_repository_workflow.R")
 ```
 
-This mode is designed only to check whether the workflow executes successfully.
+This mode reduces bootstrap iterations and figure DPI. It is only for checking that the workflow runs.
 
 ## Final run
 
@@ -44,47 +66,33 @@ Sys.unsetenv("GEDI_FAST_TEST")
 source("scripts/00_run_repository_workflow.R")
 ```
 
-The final run uses the full bootstrap settings required for manuscript reproducibility.
+The final run uses the full bootstrap settings used for manuscript reproducibility.
 
-## Expected outputs
-
-Main manuscript outputs:
+## Main outputs
 
 ```text
 results/main/manuscript_results.xlsx
-results/main/tables/group_summary.csv
-results/main/tables/descriptive_statistics.csv
-results/main/tables/kw_shot_exploratory.csv
-results/main/tables/kw_polygon_bootstrap.csv
-results/main/tables/dunn_polygon_bootstrap.csv
-results/main/tables/lmm_anova.csv
-results/main/tables/moran_i.csv
+results/main/tables/
 results/figures/figure_07_boxplots_by_physiognomy.png
 ```
 
-Supplementary outputs:
+## Supplementary outputs
 
 ```text
 results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
 results/supplementary/supplementary_tables.xlsx
-results/supplementary/tables/s1a_polygon_collinearity_baseline.csv
-results/supplementary/tables/s1b_collinearity_stability.csv
-results/supplementary/tables/s2a_qc_scenario_sample_size.csv
-results/supplementary/tables/s2b_scenario_definitions_redundancy.csv
-results/supplementary/tables/s3a_kw_by_scenario.csv
-results/supplementary/tables/s3b_delta_eps2_summary.csv
-results/supplementary/tables/s4_pairwise_robustness.csv
+results/supplementary/tables/
 results/supplementary/figures/figure_s1_polygon_spearman_heatmap.png
 results/supplementary/figures/figure_s2_qc_delta_epsilon2.png
 ```
 
-## Final validation
+## Coverage check
 
-After the final run, inspect:
+After running the workflow, inspect:
 
 ```text
 results/checks/submission_output_coverage.csv
 results/checks/submission_output_coverage_summary.csv
 ```
 
-All data-dependent manuscript and supplementary outputs should be marked as generated by scripts. Static/cartographic figures should be present under `manuscript_assets/figures/`.
+These files indicate whether each table and figure cited in the submitted documentation is produced by the workflow or is an external/static asset.
