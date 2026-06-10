@@ -79,7 +79,7 @@ results/figures/figure_07_boxplots_by_physiognomy.png
 ## Supplementary outputs
 
 ```text
-results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
+Complete scenario-wise outputs workbook: results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
 results/supplementary/supplementary_tables.xlsx
 results/supplementary/tables/
 results/supplementary/figures/figure_s1_polygon_spearman_heatmap.png

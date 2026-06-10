@@ -3,7 +3,7 @@
 #
 # Project: GEDI-derived forest structure in Atlantic Forest physiognomies
 # Repository workflow: final reproducibility check
-# Author: Marcelo C. S. Bandoria
+# Author: Marcelo C. S. Bandoria.
 #
 # Purpose
 # This script checks whether each data-dependent table and figure cited in the
@@ -56,7 +56,7 @@ expected <- tibble::tribble(
   "Supplementary Information", "Table S3a", "Polygon-level Kruskal-Wallis results by scenario", "05", "results/supplementary/tables/s3a_kw_by_scenario.csv", "script_generated",
   "Supplementary Information", "Table S3b", "Scenario-level summary of delta epsilon squared", "05", "results/supplementary/tables/s3b_delta_eps2_summary.csv", "script_generated",
   "Supplementary Information", "Table S4", "Pairwise robustness of physiognomy separation across scenarios", "05", "results/supplementary/tables/s4_pairwise_robustness.csv", "script_generated",
-  "Supplementary Data", "Supplementary Data 1", "Complete scenario-wise QC/acquisition outputs", "05", "results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx", "script_generated"
+  "Repository output", "Complete scenario-wise outputs workbook", "Complete scenario-wise quality-control/acquisition outputs", "05", "results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx", "script_generated"
 )
 
 coverage <- expected |>

@@ -10,6 +10,6 @@ Mixed models,LMM with polygon random intercept,02_run_main_statistics.R,Main Tab
 Spatial diagnostics,Moran's I on residuals,02_run_main_statistics.R,Main Table 6
 Main figures,Generate boxplots by physiognomy,03_make_main_figures.R,Main Figure 7
 QC sensitivity,Run alternative QC/acquisition scenarios,04_run_qc_sensitivity_analysis.R,Supplementary Tables S2-S4 and Figure S2
-Supplementary tables,Create compact supplementary table set and Excel workbook,05_make_supplementary_tables.R,Tables S1a-S4 and Supplementary Data 1
+Complete repository output with full scenario-wise results,Create compact supplementary table set and complete scenario-wise outputs workbook,05_make_supplementary_tables.R,Tables S1a-S4 and complete repository outputs workbook
 Supplementary figures,Generate collinearity heatmap and delta epsilon-squared figure,06_make_supplementary_figures.R,Figures S1-S2
 Coverage check,Check presence of all submitted data-dependent outputs,07_check_submission_coverage.R,results/checks outputs

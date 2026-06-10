@@ -127,7 +127,7 @@ Expected manuscript-reference diagnostic values:
 
 After the final run, check:
 
-- [ ] `results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx`
+- [ ] Complete scenario-wise outputs workbook: results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
 - [ ] `results/supplementary/supplementary_tables.xlsx`
 - [ ] `results/supplementary/tables/s1a_polygon_collinearity_baseline.csv`
 - [ ] `results/supplementary/tables/s1b_collinearity_stability.csv`

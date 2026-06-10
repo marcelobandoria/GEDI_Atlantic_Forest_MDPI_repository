@@ -33,4 +33,4 @@ This document maps submitted manuscript and supplementary items to repository ou
 | Table S3a | `results/supplementary/tables/s3a_kw_by_scenario.csv` | Script 05 |
 | Table S3b | `results/supplementary/tables/s3b_delta_eps2_summary.csv` | Script 05 |
 | Table S4 | `results/supplementary/tables/s4_pairwise_robustness.csv` | Script 05 |
-| Supplementary Data 1 | `results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx` | Script 05 |
+| Complete scenario-wise outputs workbook | results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx | Script 05 |

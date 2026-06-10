@@ -74,10 +74,10 @@ opt <- list(
     COVER = seq(10, 95, 10)
   ),
   colors = c(
-    FOD = "#1C5F2C",
-    FOM = "#1F8D49",
-    FES = "#B5C58F",
-    FED = "#68AB5F"
+    FOD = "#0052CC",
+    FOM = "#00AA50",
+    FES = "#7A00CC",
+    FED = "#DC0000"
   )
 )
 

@@ -8,7 +8,7 @@ results/main/tables/dunn_polygon_bootstrap.csv,Table 4,02_run_main_statistics.R,
 results/main/tables/lmm_anova.csv,Table 5,02_run_main_statistics.R,LMM ANOVA robustness analysis
 results/main/tables/moran_i.csv,Table 6,02_run_main_statistics.R,Residual Moran's I diagnostics
 results/figures/figure_07_boxplots_by_physiognomy.png,Figure 7,03_make_main_figures.R,Combined exploratory boxplot panel
-results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx,Supplementary Data 1,05_make_supplementary_tables.R,Complete supplementary scenario-wise outputs
+results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx,Complete scenario-wise outputs workbook,05_make_supplementary_tables.R,Complete repository output with full scenario-wise results
 results/supplementary/supplementary_tables.xlsx,Supplementary Tables S1a-S4,05_make_supplementary_tables.R,Workbook with compact supplementary tables
 results/supplementary/tables/s1a_polygon_collinearity_baseline.csv,Table S1a,05_make_supplementary_tables.R,Polygon-level Spearman collinearity under baseline QC
 results/supplementary/tables/s1b_collinearity_stability.csv,Table S1b,05_make_supplementary_tables.R,Collinearity stability across scenarios

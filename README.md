@@ -133,7 +133,7 @@ results/supplementary/
 Key outputs include:
 
 ```text
-results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
+results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx — complete scenario-wise outputs workbook available in the repository
 results/supplementary/supplementary_tables.xlsx
 results/supplementary/tables/
 results/supplementary/figures/figure_s1_polygon_spearman_heatmap.png

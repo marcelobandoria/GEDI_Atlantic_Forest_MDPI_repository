@@ -15,7 +15,7 @@
 #   results/supplementary/*.csv from Script 04
 #
 # Main outputs
-#   results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
+# Complete scenario-wise outputs workbook stored in the repository: results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
 #   results/supplementary/supplementary_tables.xlsx
 #   results/supplementary/tables/table_s*.csv
 # -----------------------------------------------------------------------------
@@ -343,7 +343,7 @@ openxlsx::saveWorkbook(wb, opt$compact_workbook, overwrite = TRUE)
 # ----------------------------- 7) EXPORT FULL SUPPLEMENTARY DATA -------------
 readme <- tibble::tribble(
   ~Field, ~Value, ~Where_cited_or_used,
-  "Supplementary Data file", "Supplementary_Data_Bandoria_et_al_2026.xlsx", "Supplementary Information: Supplementary Data 1",
+  "Repository outputs workbook", "Supplementary_Data_Bandoria_et_al_2026.xlsx", "Complete scenario-wise outputs available in the repository",
   "Associated manuscript", "Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics", "Submitted manuscript and Supplementary Information",
   "Purpose", "Complete scenario-wise outputs for GEDI QC/acquisition sensitivity analyses", "Supplementary Methods S3-S4; Fig. S1-S2; Tables S1a-S4",
   "Primary unit", "Polygon-level GEDI summaries", "Main manuscript statistical analysis",
