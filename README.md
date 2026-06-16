@@ -11,7 +11,7 @@ The repository supports transparency, reproducibility, and data availability for
 The repository version associated with the revised manuscript is:
 
 * Repository version: **v1.0.3**
-* Zenodo DOI: **to be updated after publication of the new Zenodo version**
+* Zenodo DOI: **https://doi.org/10.5281/zenodo.20722314**
 * GitHub repository: `https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics`
 
 ## Study overview
@@ -62,12 +62,13 @@ regional-atlantic-forest-gedi-structural-metrics/
 │   └── 07_check_submission_coverage.R
 ├── results/
 │   ├── main/
+│   │   └── tables/
+│   │       └── tables_manuscript/
 │   ├── figures/
 │   ├── supplementary/
 │   └── checks/
 ├── metadata/
 ├── documentation/
-│   └── article_tables/
 ├── manuscript_assets/
 │   └── figures/
 ├── README.md
@@ -138,7 +139,7 @@ results/figures/figure_07_boxplots_by_physiognomy.png
 The corrected article tables submitted with the revised manuscript are available under:
 
 ```text
-documentation/article_tables/
+results/main/tables/tables_manuscript/
 ```
 
 These files correspond to Tables 1–6 in the revised manuscript and were checked for consistency with the manuscript text, Supplementary Information, and repository outputs.
@@ -194,7 +195,7 @@ The repository was organized to document the workflow used in the manuscript. Sc
 
 If you use this repository, please cite:
 
-Bandoria, M. C. S.; Seixas, H. T.; Rosa, M. R.; Molin, P. G.; Queiroz, A. P. (2026). *Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics* (v1.0.3). Zenodo. DOI to be updated after publication of the new Zenodo version.
+Bandoria, M. C. S.; Seixas, H. T.; Rosa, M. R.; Molin, P. G.; Queiroz, A. P. (2026). *Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics* (v1.0.3). Zenodo. https://doi.org/10.5281/zenodo.20722314
 
 ## License
 

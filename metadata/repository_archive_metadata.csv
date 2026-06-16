@@ -2,9 +2,9 @@ field,value
 repository_title,Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics
 manuscript_title,Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics
 github_repository,https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics
-github_release,v1.0.2
-zenodo_doi,to be updated after publication of the new Zenodo version
-zenodo_url,https://doi.org/10.5281/zenodo.20403257
+github_release,v1.0.3
+zenodo_doi,10.5281/zenodo.20722314
+zenodo_url,https://doi.org/10.5281/zenodo.20722314
 archived_version,v1.0.3
 archive_platform,Zenodo
 repository_platform,GitHub
@@ -12,3 +12,4 @@ main_input_table,data/gedi_footprints_filtered.csv
 main_spatial_file,spatial/old_growth_candidate_polygons.gpkg
 workflow_entry_point,scripts/00_run_repository_workflow.R
 coverage_check_script,scripts/07_check_submission_coverage.R
+
