@@ -1,31 +1,31 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it using the metadata below."
-title: "GEDI Atlantic Forest Structural Metrics Repository"
-version: "1.0.2"
-doi: "10.5281/zenodo.20403257"
-url: "https://doi.org/10.5281/zenodo.20403257"
-repository-code: "https://github.com/marcelobandoria/GEDI_Atlantic_Forest_MDPI_repository"
-date-released: "2026-05-26"
-type: dataset
+title: "Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics"
+version: "1.0.3"
+date-released: "2026-06-15"
+repository-code: "https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics"
+url: "https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics"
 authors:
-  - family-names: "Bandoria"
-    given-names: "Marcelo C. S."
-    email: "marcelo.bandoria@usp.br"
-    affiliation: "University of São Paulo"
-  - family-names: "Seixas"
-    given-names: "Hugo T."
-  - family-names: "Rosa"
-    given-names: "Marcos R."
-  - family-names: "Molin"
-    given-names: "Paulo G."
-  - family-names: "Queiroz"
-    given-names: "Alfredo P."
-abstract: "Data, scripts, metadata, and reproducible outputs associated with the manuscript 'Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics'."
-keywords:
-  - GEDI
-  - LiDAR
-  - Atlantic Forest
-  - forest structure
-  - remote sensing
-  - reproducible research
-license: CC-BY-4.0
+
+* family-names: "Bandoria"
+  given-names: "Marcelo C. S."
+  email: "[marcelo.bandoria@usp.br](mailto:marcelo.bandoria@usp.br)"
+  affiliation: "University of São Paulo"
+* family-names: "Seixas"
+  given-names: "Hugo T."
+* family-names: "Rosa"
+  given-names: "Marcos R."
+* family-names: "Molin"
+  given-names: "Paulo G."
+* family-names: "Queiroz"
+  given-names: "Alfredo P."
+  abstract: "Derived datasets, spatial sampling files, R scripts, metadata, complete scenario-wise outputs, supplementary outputs, corrected article tables, and reproducible outputs associated with the manuscript 'Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics'."
+  keywords:
+* GEDI
+* LiDAR
+* Atlantic Forest
+* forest structure
+* phytophysiognomy
+* remote sensing
+* reproducible research
+  license: "CC-BY-4.0"

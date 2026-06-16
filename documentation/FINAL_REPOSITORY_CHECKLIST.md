@@ -11,7 +11,7 @@ Required root-level files:
 - [ ] `CITATION.cff`
 - [ ] `LICENSE.md`
 - [ ] `.gitignore`
-- [ ] `GEDI_Atlantic_Forest_MDPI_repository.Rproj`
+- [ ] `regional-atlantic-forest-gedi-structural-metrics.Rproj`
 
 Recommended optional files:
 
@@ -190,5 +190,5 @@ All script-generated items should be present. Static figures should be present u
 - [ ] Confirm that all tables and figures are in English scientific terminology.
 - [ ] Confirm that third-party data sources are cited in README or documentation.
 - [ ] Confirm that the repository license is compatible with public release.
-- [ ] Create a final tagged release, for example `v1.0.0`.
+- [ ] Create a final tagged release, for example `v1.0.3`.
 - [ ] Archive the release in Zenodo or institutional repository if needed.

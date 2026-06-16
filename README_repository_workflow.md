@@ -1,6 +1,6 @@
 # Repository workflow
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20403257.svg)](https://doi.org/10.5281/zenodo.20403257)
+[![DOI](to be updated after publication of the new Zenodo version.svg)](to be updated after publication of the new Zenodo version)
 
 This repository workflow reproduces the data-dependent outputs cited in the submitted manuscript and Supplementary Information for the study:
 
@@ -8,9 +8,9 @@ This repository workflow reproduces the data-dependent outputs cited in the subm
 
 ## Archived version
 
-- **GitHub release:** v1.0.2
-- **Zenodo DOI:** https://doi.org/10.5281/zenodo.20403257
-- **GitHub repository:** https://github.com/marcelobandoria/GEDI_Atlantic_Forest_MDPI_repository
+- **GitHub release:** v1.0.3
+- **Zenodo DOI:** to be updated after publication of the new Zenodo version
+- **GitHub repository:** https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics
 
 ## Required input files
 

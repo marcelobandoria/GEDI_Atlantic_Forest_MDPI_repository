@@ -21,3 +21,22 @@ temp/
 cache/
 
 # Do not ignore results by default: final repository release may archive derived outputs.
+
+# R/RStudio local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS temporary files
+Thumbs.db
+.DS_Store
+
+# Temporary/editor files
+~$*
+*.tmp
+*.bak
+
+# Local backup files
+README_backup_*.md
+CITATION_backup_*.cff

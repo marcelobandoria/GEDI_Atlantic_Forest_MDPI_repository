@@ -7,7 +7,7 @@ This guide explains how to reproduce the data-dependent outputs of the manuscrip
 Open:
 
 ```text
-GEDI_Atlantic_Forest_MDPI_repository.Rproj
+regional-atlantic-forest-gedi-structural-metrics.Rproj
 ```
 
 The working directory should be the repository root.
@@ -18,11 +18,11 @@ The scripts automatically check and install missing packages when necessary. The
 
 Core package groups:
 
-- Data input and cleaning: `readr`, `janitor`, `dplyr`, `tidyr`, `stringr`, `purrr`, `tibble`
-- Spatial processing: `sf`, `units`, optional `lwgeom`
-- Statistical analysis: `FSA`, `lme4`, `lmerTest`, `spdep`, optional `gstat`
-- Tables and outputs: `openxlsx`
-- Figures: `ggplot2`, `scales`, `cowplot`, `patchwork`, `sysfonts`, `showtext`
+* Data input and cleaning: `readr`, `janitor`, `dplyr`, `tidyr`, `stringr`, `purrr`, `tibble`
+* Spatial processing: `sf`, `units`, optional `lwgeom`
+* Statistical analysis: `FSA`, `lme4`, `lmerTest`, `spdep`, optional `gstat`
+* Tables and outputs: `openxlsx`
+* Figures: `ggplot2`, `scales`, `cowplot`, `patchwork`, `sysfonts`, `showtext`
 
 ## 3. Run the quick test
 
@@ -59,13 +59,13 @@ results/checks/submission_output_coverage_summary.csv
 
 The main workflow should reproduce the following reference counts:
 
-- 252,152 GEDI footprints before the 60 m edge filter.
-- 13,191 footprints removed by the 60 m edge filter.
-- 238,961 footprints retained after the 60 m edge filter.
-- 12,440 balanced shots per physiognomy in the manuscript-reference workflow.
+* 252,152 GEDI footprints before the 60 m edge filter.
+* 13,191 footprints removed by the 60 m edge filter.
+* 238,961 footprints retained after the 60 m edge filter.
+* 12,440 balanced footprints per physiognomy in the manuscript-reference workflow.
 
 ## 7. Interpret workflow distinction
 
 The main manuscript workflow reproduces the analytical path used for the submitted manuscript tables and Figure 7.
 
-The QC/acquisition workflow is a supplementary robustness workflow. It should be used to reproduce Supplementary Methods S3-S4, Supplementary Figures S1-S2, Supplementary Tables S1a-S4, and the Supplementary Data workbook. It should not replace the manuscript-reference main analysis.
+The QC/acquisition workflow is a supplementary robustness workflow. It should be used to reproduce Supplementary Methods S3–S4, Supplementary Figures S1–S2, Supplementary Tables S1a–S1b, S2a–S2b, S3a–S3b, S4, and the complete scenario-wise outputs workbook available in the repository. It should not replace the manuscript-reference main analysis.

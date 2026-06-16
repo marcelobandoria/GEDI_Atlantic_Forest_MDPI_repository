@@ -1,42 +1,52 @@
-# GEDI Atlantic Forest Structural Metrics Repository
+# Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20403257.svg)](https://doi.org/10.5281/zenodo.20403257)
-
-This repository contains the data, scripts, metadata, documentation, and reproducible outputs associated with the manuscript:
+This repository contains the derived datasets, spatial sampling files, R scripts, metadata, documentation, complete scenario-wise outputs, supplementary outputs, corrected article tables, and reproducible outputs associated with the manuscript:
 
 **Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics**
 
-The repository supports transparency, reproducibility, and data availability for the GEDI-based comparison of Atlantic Forest phytophysiognomies using polygon-level structural metrics.
+The repository supports transparency, reproducibility, and data availability for the GEDI-based regional comparison of Atlantic Forest phytophysiognomies using polygon-level structural metrics.
 
-## Archived version
+## Repository version associated with the revised manuscript
 
-The repository version associated with the submitted manuscript is archived on Zenodo:
+The repository version associated with the revised manuscript is:
 
-- **GitHub release:** v1.0.2
-- **Zenodo DOI:** https://doi.org/10.5281/zenodo.20403257
-- **GitHub repository:** https://github.com/marcelobandoria/GEDI_Atlantic_Forest_MDPI_repository
+* Repository version: **v1.0.3**
+* Zenodo DOI: **to be updated after publication of the new Zenodo version**
+* GitHub repository: `https://github.com/marcelobandoria/regional-atlantic-forest-gedi-structural-metrics`
 
 ## Study overview
 
 The study compares GEDI-derived forest structural metrics among old-growth candidate polygons in four Atlantic Forest phytophysiognomies:
 
-- Dense Ombrophilous Forest (DOF)
-- Mixed Ombrophilous Forest (MOF)
-- Seasonal Semideciduous Forest (SSdF)
-- Seasonal Deciduous Forest (SDF)
+* Dense Ombrophilous Forest (DOF)
+* Mixed Ombrophilous Forest (MOF)
+* Seasonal Semideciduous Forest (SSdF)
+* Seasonal Deciduous Forest (SDF)
 
 The workflow analyzes five GEDI-derived structural variables:
 
-- Canopy height (H, m)
-- Aboveground biomass density (AGBD, Mg ha^-1)
-- Plant area index (PAI, m^2 m^-2)
-- Canopy cover (COVER, %)
-- Foliage height diversity (FHD)
+* Canopy height (H, m)
+* Aboveground biomass density (AGBD, Mg ha^-1)
+* Plant area index (PAI, m^2 m^-2)
+* Canopy cover (COVER, %)
+* Foliage height diversity (FHD)
+
+## Repository contents
+
+This repository includes:
+
+* derived GEDI-based structural datasets;
+* spatial sampling files;
+* R scripts used for preprocessing, statistical analyses, figures, and supplementary outputs;
+* metadata and documentation;
+* complete scenario-wise outputs;
+* supplementary outputs supporting the manuscript;
+* corrected article tables corresponding to the revised manuscript.
 
 ## Repository structure
 
 ```text
-GEDI_Atlantic_Forest_MDPI_repository/
+regional-atlantic-forest-gedi-structural-metrics/
 ├── data/
 │   └── gedi_footprints_filtered.csv
 ├── spatial/
@@ -57,13 +67,14 @@ GEDI_Atlantic_Forest_MDPI_repository/
 │   └── checks/
 ├── metadata/
 ├── documentation/
+│   └── article_tables/
 ├── manuscript_assets/
 │   └── figures/
 ├── README.md
 ├── README_repository_workflow.md
 ├── CITATION.cff
 ├── LICENSE.md
-└── GEDI_Atlantic_Forest_MDPI_repository.Rproj
+└── regional-atlantic-forest-gedi-structural-metrics.Rproj
 ```
 
 ## Required input files
@@ -122,6 +133,16 @@ results/main/tables/moran_i.csv
 results/figures/figure_07_boxplots_by_physiognomy.png
 ```
 
+## Corrected article tables
+
+The corrected article tables submitted with the revised manuscript are available under:
+
+```text
+documentation/article_tables/
+```
+
+These files correspond to Tables 1–6 in the revised manuscript and were checked for consistency with the manuscript text, Supplementary Information, and repository outputs.
+
 ## Supplementary outputs
 
 Supplementary outputs are generated under:
@@ -133,12 +154,26 @@ results/supplementary/
 Key outputs include:
 
 ```text
-results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx — complete scenario-wise outputs workbook available in the repository
+results/supplementary/Supplementary_Data_Bandoria_et_al_2026.xlsx
 results/supplementary/supplementary_tables.xlsx
 results/supplementary/tables/
 results/supplementary/figures/figure_s1_polygon_spearman_heatmap.png
 results/supplementary/figures/figure_s2_qc_delta_epsilon2.png
 ```
+
+The supplementary file submitted with the manuscript contains only the compact supporting material: Supplementary Methods S1–S4, Supplementary Figures S1–S2, and Supplementary Tables S1a–S1b, S2a–S2b, S3a–S3b, and S4.
+
+Complete processing logs, full correlation tables, scenario-wise Dunn outputs, and effect-size deltas are retained in the repository for transparency and reproducibility.
+
+## Static manuscript assets
+
+Figures 1–6 in the manuscript are cartographic, visual interpretation, or diagrammatic assets. They are stored as static files under:
+
+```text
+manuscript_assets/figures/
+```
+
+The repository workflow checks their expected presence but does not recreate them.
 
 ## Coverage check
 
@@ -151,21 +186,15 @@ results/checks/submission_output_coverage_summary.csv
 
 These files indicate whether each data-dependent table and figure cited in the submitted manuscript and Supplementary Information is generated by the workflow or is an external/static asset.
 
-## Static manuscript assets
+## Notes on reproducibility
 
-Figures 1–6 in the manuscript are cartographic, visual interpretation, or diagrammatic assets. They are stored as static files under:
-
-```text
-manuscript_assets/figures/
-```
-
-The repository workflow checks their expected presence but does not recreate them.
+The repository was organized to document the workflow used in the manuscript. Scripts and outputs are provided to support reproducibility of the analyses and to allow verification of the scenario-wise results reported in the manuscript and supplementary material.
 
 ## Citation
 
 If you use this repository, please cite:
 
-Bandoria, M. C. S.; Seixas, H. T.; Rosa, M. R.; Molin, P. G.; Queiroz, A. P. (2026). *GEDI Atlantic Forest Structural Metrics Repository: data, scripts, metadata, and reproducible outputs for “Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics”* (v1.0.2). Zenodo. https://doi.org/10.5281/zenodo.20403257
+Bandoria, M. C. S.; Seixas, H. T.; Rosa, M. R.; Molin, P. G.; Queiroz, A. P. (2026). *Data and code for: Regional comparison of Atlantic Forest physiognomies using GEDI-derived structural metrics* (v1.0.3). Zenodo. DOI to be updated after publication of the new Zenodo version.
 
 ## License
 
